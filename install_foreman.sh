@@ -14,7 +14,6 @@ wget -q http://deb.theforeman.org/foreman.asc -O- | apt-key add -
 apt-get update && apt-get install foreman-installer -y
 
 #fudge some domainname stuff
-domainname example.com
 sed -i "s/master/master.example.com master/" /etc/hosts
 
 #install the thing
