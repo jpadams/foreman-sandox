@@ -1,0 +1,9 @@
+---
+vms:
+  - name: "master"
+    box: "ubuntu-server-1204-x64-vbox436-nocm"
+    roles: [ "posix_noagent" ]
+  
+  - name: "ubuntu1204a"
+    box: "ubuntu-server-1204-x64-vbox436-nocm"
+    roles: [ "posix_noagent" ]
